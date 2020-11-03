@@ -18,4 +18,13 @@ public class constant {
 	
 	public static int flagRead = 0;
 	public static int flagWrite = 1;
+	
+	public static int getHeight(int n){
+		int a = 0;
+		a = n / 4;
+		if (n % 4 > 0){
+			a++;
+		}
+		return a * 120;
+	}
 }
